@@ -4,8 +4,16 @@ class Cooker():
         self.money = money
 
     def di_cho(self, ten_mon, so_luong, gia_tien):
+        self.money = self.money - gia_tien * so_luong
 
-        money = self.money - gia_tien * so_luong
+        return self.money
 
-        return money
+    def mua_dung_cu(self, ten_dung_cu, so_luong, gia_tien):
+
+        if ten_dung_cu == 'BepGa':
+            return
+
+        self.money = self.money - gia_tien * so_luong
+
+        return self.money
 
