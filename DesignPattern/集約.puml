@@ -1,26 +1,17 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+class Color {
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
 }
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
+class Fruit {
+    Color color
 }
 
+class Basket {
+    Fruit[] fruits
+}
+
+Fruit o-- Basket
+Color o-- Fruit
 @enduml
