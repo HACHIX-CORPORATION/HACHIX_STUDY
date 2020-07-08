@@ -1,0 +1,22 @@
+@startuml
+class View {
+
+}
+
+class ViewModel {
+
+}
+
+class IControlService {
+
+}
+
+class ControlService {
+    +createDrawLock()
+}
+
+IControlService <|-- ControlService
+ControlService o-- View
+ControlService o-- ViewModel
+
+@enduml
