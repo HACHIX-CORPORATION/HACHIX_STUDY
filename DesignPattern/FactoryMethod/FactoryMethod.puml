@@ -1,0 +1,11 @@
+@startuml
+class Creator{
+
++ someOperation()
++ createProduct(): Product
+}
+
+class ConcreteCreatorA{
++ createProduct()
+}
+@enduml

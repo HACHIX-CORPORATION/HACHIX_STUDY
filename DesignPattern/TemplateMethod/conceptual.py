@@ -20,7 +20,7 @@ class AbstractClass(ABC):
 
     @abstractmethod
     def required_operations1(self) -> None:
-        pass
+        print("OK")
 
     @abstractmethod
     def required_operations2(self) -> None:
@@ -31,22 +31,26 @@ class AbstractClass(ABC):
         hooks already have default (not empty) implementation.
         :return:
         """
-        pass
+        print("Old hook")
 
 
 class ConcreteClass1(AbstractClass):
 
     def required_operations1(self) -> None:
-        print("Operation 1 of ConcreteClass 1")
+        pass # print("Operation 1 of ConcreteClass 1")
 
     def required_operations2(self) -> None:
-        print("Operation 2 of ConcreteClass 2")
+        print("Operation 2 of ConcreteClass 1")
+
+    @staticmethod
+    def base_operation() -> None:
+        print("Something in common in ConcreteClass 1")
 
 
 class ConcreteClass2(AbstractClass):
 
     def required_operations1(self) -> None:
-        print("Operation 1 of ConcreteClass 1")
+        print("Operation 1 of ConcreteClass 2")
 
     def required_operations2(self) -> None:
         print("Operation 2 of ConcreteClass 2")
@@ -56,6 +60,7 @@ class ConcreteClass2(AbstractClass):
 
 
 def client_code(abstract_class: AbstractClass) -> None:
+    # abstract_class: AbstractClass (type)
     abstract_class.template_method()
 
 
