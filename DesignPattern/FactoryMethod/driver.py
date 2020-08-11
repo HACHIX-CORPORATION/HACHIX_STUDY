@@ -25,6 +25,36 @@ class Camera(ABC):
         return self._image
 
 
+class RGBCamera(Camera):
+
+    def __init__(self):
+        pass
+
+    def _open(self):
+        print("rgb camera open")
+
+    def _capture(self):
+        print("rgb camera capture")
+
+    def _close(self):
+        print("rgb camera close")
+
+
+class DepthCamera(Camera):
+
+    def __init__(self):
+        pass
+
+    def _open(self):
+        print("depth camera open")
+
+    def _capture(self):
+        print("depth camera capture")
+
+    def _close(self):
+        print("depth camera close")
+
+
 class Image(ABC):
 
     @abstractmethod
@@ -54,24 +84,15 @@ class RGBImage(Image):
         print("get binary of rgb image")
 
 
-class RGBCamera(Camera):
-
-    def __init__(self):
-        pass
-
-    def _open(self):
-        print("rgb camera open")
-
-    def _capture(self):
-        print("rgb camera capture")
-
-    def _close(self):
-        print("rgb camera close")
-
-
 if __name__ == "__main__":
     rgb_camera = RGBCamera()
 
     rgb_image = rgb_camera.capture_once()
 
     print(rgb_image)
+
+    depth_camera = DepthCamera()
+
+    depth_image = depth_camera.capture_once()
+
+    print(depth_image)
