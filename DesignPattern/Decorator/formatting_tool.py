@@ -61,6 +61,7 @@ class BoldWrapper(WrittenText):
 
 if __name__ == '__main__':
     before_gfg = WrittenText("GeeksforGeeks")
+
     after_gfg = ItalicWrapper(UnderlineWrapper(BoldWrapper(before_gfg)))
 
     print("before :", before_gfg.render())
