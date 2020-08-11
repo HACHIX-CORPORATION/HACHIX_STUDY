@@ -1,0 +1,7 @@
+C:\Users\tuero\source\repos\Bài tập\Bài tập\bin\Debug\Bài tập.exe.config
+C:\Users\tuero\source\repos\Bài tập\Bài tập\bin\Debug\Bài tập.exe
+C:\Users\tuero\source\repos\Bài tập\Bài tập\bin\Debug\Bài tập.pdb
+C:\Users\tuero\source\repos\Bài tập\Bài tập\obj\Debug\Bài tập.csprojAssemblyReference.cache
+C:\Users\tuero\source\repos\Bài tập\Bài tập\obj\Debug\Bài tập.csproj.CoreCompileInputs.cache
+C:\Users\tuero\source\repos\Bài tập\Bài tập\obj\Debug\Bài tập.exe
+C:\Users\tuero\source\repos\Bài tập\Bài tập\obj\Debug\Bài tập.pdb

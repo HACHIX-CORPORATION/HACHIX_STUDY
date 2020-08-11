@@ -1,0 +1,22 @@
+1.Namspace là gì?
+- Namspace được dùng để chỉ một nhóm các lớp trong thư viện
+- Giúp cho việc tổ chức các thư viện trong sáng, dễ dàng
+
+2.Tên namspace sử dụng tiếng anh
+
+3.Static là gì?
+- Đang học, sẽ báo cáo trong lần sau
+
+4.Cách tạo region, để ở dòng số 8 (Sửa trong code)
+
+5.Tìm hiểu về coding style về cách viết region
+
+6.Đặt tên biến có ý nghĩa (Sửa trong code)
+
+7.Lý do nhập được > 4 lần (Sửa trong code)
+
+8.Khi nào dùng WHILE và khi nào dùng FOR
+- while; không xác định đc số vòng lặp là bao nhiêu
+- for: xác định được số vòng lặp là bao nhiêu
+----------------------------------------------------------
+
