@@ -1,0 +1,1 @@
+1. async/awaitはC# 5.0から
