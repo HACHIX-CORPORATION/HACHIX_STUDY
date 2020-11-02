@@ -1,0 +1,14 @@
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\AsyncLecture.exe.config
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\AsyncLecture.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\AsyncLecture.pdb
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.csprojAssemblyReference.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.Form1.resources
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.Properties.Resources.resources
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.csproj.GenerateResource.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.csproj.CoreCompileInputs.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.pdb
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\CustomizeControls.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\CustomizeControls.pdb
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\bin\Debug\CustomizeControls.exe.config
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\AsyncLecture\obj\Debug\AsyncLecture.csproj.CopyComplete

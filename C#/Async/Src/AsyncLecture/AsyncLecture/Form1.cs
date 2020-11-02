@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CustomizeControls;
 using System.Windows.Forms;
 
 namespace AsyncLecture
@@ -15,6 +8,19 @@ namespace AsyncLecture
         public Form1()
         {
             InitializeComponent();
+
+            this.Test2();
+            
         }
+
+        public void Test2()
+        {
+            var a = new CustomControl1();
+            
+
+
+        }
+
+
     }
 }

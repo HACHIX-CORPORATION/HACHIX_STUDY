@@ -5,6 +5,8 @@ import time
 
 logging.basicConfig(level=logging.DEBUG, format='%(threadName)s: %(message)s')
 
+# 排他制御の実現
+
 
 def worker1(d, lock):
     logging.debug('start')

@@ -1,0 +1,10 @@
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\bin\Debug\CustomizeControls.exe.config
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\bin\Debug\CustomizeControls.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\bin\Debug\CustomizeControls.pdb
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.csprojAssemblyReference.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.CustomControl1.resources
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.Properties.Resources.resources
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.csproj.GenerateResource.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.csproj.CoreCompileInputs.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Async\Src\AsyncLecture\CustomizeControls\obj\Debug\CustomizeControls.pdb
