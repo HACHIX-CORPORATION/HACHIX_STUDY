@@ -1,0 +1,9 @@
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\bin\Debug\StudyCode.exe.config
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\bin\Debug\StudyCode.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\bin\Debug\StudyCode.pdb
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.csprojAssemblyReference.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.Properties.Resources.resources
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.csproj.GenerateResource.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.csproj.CoreCompileInputs.cache
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.exe
+C:\Users\nguye\study\HACHIX_STUDY\C#\Advanced\src\StudyCode\StudyCode\obj\Debug\StudyCode.pdb
