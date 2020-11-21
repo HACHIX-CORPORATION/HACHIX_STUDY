@@ -39,6 +39,16 @@
     
 5. C++ アプリ　- C# Serverの連携
 
+6. CLR とは
+    - Common Language RunTime
+
+7. COM
+    - Component Object Model
+    
+8. GUIDとは
+    - Global Unique Identifier
+    
+
 
         
     
