@@ -1,5 +1,13 @@
 # Observer
 
+## 説明
+
+Observerパターンとは、プログラム内のオブジェクトのイベント( 事象 )を
+他のオブジェクトへ通知する処理で使われるデザインパターンの一種。
+
+
+
+
 ![observer](https://refactoring.guru/images/patterns/content/observer/observer.png)
 
 Thuộc trong nhóm các mô hình chức năng, cung cấp một **cơ chế đăng kí** nhằm thông báo cho

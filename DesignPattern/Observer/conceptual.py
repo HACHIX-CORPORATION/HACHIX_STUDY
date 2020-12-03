@@ -1,4 +1,3 @@
-from __future__ import annotations
 from abc import ABC, abstractmethod
 from random import randrange
 from typing import List
@@ -10,14 +9,14 @@ class Subject(ABC):
     """
 
     @abstractmethod
-    def attach(self, observer: Observer) -> None:
+    def attach(self, observer) -> None:
         """
         Attach an observer to the subject.
         """
         pass
 
     @abstractmethod
-    def detach(self, observer: Observer) -> None:
+    def detach(self, observer) -> None:
         """
         Detach an observer from the subject.
         """

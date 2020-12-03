@@ -1,0 +1,30 @@
+@startuml
+abstract class IObserver {
+    +update()
+}
+
+
+
+class ObserverConcrete{
+    +update()
+}
+
+abstract class ISubject {
+    IObserver : Object[] elementData
+
+    +notify()
+    +addObserver()
+    +deleteObserver()
+}
+
+class Subject {
+    +notify()
+    +addObserver()
+    +deleteObserver()
+}
+
+IObserver <|-- ObserverConcrete
+ISubject <|-- Subject
+IObserver o- ISubject
+
+@enduml
