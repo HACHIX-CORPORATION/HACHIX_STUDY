@@ -9,3 +9,18 @@
     
 3. 標準ライブラリと組み込み関数のリストを活用
     - Ex: dict.setdefault()
+    
+4. デストラクタは __del__を利用する。
+
+5. @property, setter
+
+6. 抽象クラス abc.abstractmethod
+
+7. 特殊メソッド
+    - __eq__
+    - __str__
+    
+
+    
+
+
