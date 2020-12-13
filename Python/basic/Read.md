@@ -20,6 +20,30 @@
     - __eq__
     - __str__
     
+8. ファイル操作とシステム
+    - 読み込み
+        - 1行ずつ
+        - 指定文字ずつ読み込み
+    - 読み込み位置を移動する
+        - seek
+    - Templateの機能がある
+    
+    - csvファイル
+        - import csv
+        
+    - ライブラリ
+        - pathlib
+        - glob
+        - shutil
+    
+    - ファイル圧縮
+        - tarfile
+        - zipfile
+        - tempfile
+    - コマンド実行
+        - subprocess
+        
+        
 
     
 
