@@ -46,6 +46,12 @@
         you need to declare the shared state in their parent component instead. 
         The parent component can pass the state back down to the children by using props; 
         this keeps the child components in sync with each other and with the parent component.
+        
+   - props, stateの違い
+      - State: そのコンポーネントが持っている状態
+         - mutable data (可変のデータ)
+      - Props: 親コンポーネントから渡されたプロパティ
+         - immutable data 
    
 2. Render 
    - returns a description of what you want to see on the screen.  
@@ -59,6 +65,14 @@
    then Babel will transform these expressions into actual JavaScript code
    
 4. Passing Data through props
+
+# Redux
+1. store
+   - storeはreduxが管理してる値です。アプリケーションの状態(state)を保持します。
+   
+2. store, props, stateの使い分け
+   - app全体で管理したい値はstore管理、コンポーネント毎に管理したい値はprops or stateで管理する。
+   - 親から子へデータを渡す時はprops、状態を更新させる時はstateを使う。
 
 # Webpackとは
 1. webpackは指定されたファイルを起点として、そこからimport文を頼りに芋づる式にファイルを繋げてゆき、
