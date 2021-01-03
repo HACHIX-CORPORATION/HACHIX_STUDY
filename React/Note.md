@@ -33,3 +33,19 @@
     
 8. 2019
     - V17.8.0のRelease: ReactHooks
+   
+# React tutorial
+1. a component takes in parameters, called props (properties) and returns a hierarchy of views to display via the 
+render method.
+   
+2. The render method returns a description of what you want to see on the screen.  
+   In particular, render returns a React element, which is a lightweight description of what to render. 
+   Most React developers use a special syntax called “JSX” which makes these structures easier to write. 
+   The <div /> syntax is transformed at build time to React.createElement('div'). 
+   
+3. jsx = javascript extension. by using JSX you can write concise HTML/XML-like structures 
+   (e.g., DOM like tree structures) in the same file as you write JavaScript code, 
+   then Babel will transform these expressions into actual JavaScript code
+   
+4. Passing Data through props
+   
