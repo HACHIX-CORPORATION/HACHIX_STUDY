@@ -1,18 +1,18 @@
-# Reactとは
+### Reactとは
 1. UIを作るためのJavaScript用ライブラリ
 2. Facebook、Yahoo、ATOM、Airbnbなど、名だたる有名な企業で採用されています。
 
-# コンセプト
+### コンセプト
 1. Declarative
 2. Component-Based
 3. Learn Once, Write Anywhere
 
-# 特徴
+### 特徴
 1. レンダリングが高速
 2. 大規模なアプリケーションほど向いている
 3. SPAのアプリケーションに向いている
 
-# 歴史
+### 歴史
 1. 2011 Facebook AdsのUI開発するためのプロジェクトでスタート
 2. 2012 OSS化
 3. 2013
@@ -74,7 +74,7 @@
    - app全体で管理したい値はstore管理、コンポーネント毎に管理したい値はprops or stateで管理する。
    - 親から子へデータを渡す時はprops、状態を更新させる時はstateを使う。
 
-# Webpackとは
+### Webpackとは
 1. webpackは指定されたファイルを起点として、そこからimport文を頼りに芋づる式にファイルを繋げてゆき、
    一つにまとめたJavaScriptファイルを出力します。
    このまとめる処理はバンドル(bundle)と呼ばれています。（束ねるの意）そしてバンドルを行うツールはバンドラーと呼ばれています。
@@ -83,5 +83,21 @@
 2. Babelは、ES6やES7の機能や構文を、ES5相当の機能を使ってブラウザで実行できるように変換します。
    ES5は現在広く使われているブラウザのほとんどでサポートされています。ES5の機能であれば、現状でも問題なく使うことができます。
    
-# Tools
+### Tools
 1. React Devtools extension for Chrome and Firefox
+2. codepen.io
+3. https://babeljs.io/
+   - try it out
+   
+### Programming Tips
+1. When return jsx, you have to make sure that the opening tag in on the 
+same line with return syntax or use ()
+   
+2. For any non jsx property by convention in the javascript community, 
+we use single quote
+   - Ex: <button style={{backgroudColor: 'blue'}}
+   
+
+   
+
+   
