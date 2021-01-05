@@ -1,0 +1,4 @@
+- ホワイトペーパー|AWS
+    - https://aws.amazon.com/jp/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc
+- AWS活用資料集
+    - https://aws.amazon.com/jp/aws-jp-introduction/
