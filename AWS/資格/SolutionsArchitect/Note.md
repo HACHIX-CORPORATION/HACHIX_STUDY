@@ -19,6 +19,8 @@
             - https://aws.amazon.com/jp/aws-jp-introduction/
 1. 学習の進め方
     - AWS Well-Architected Frameworkとベストプラクティス
+        - https://aws.amazon.com/jp/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
+        
     - 具体的な試験範囲を押させえる
 
 
