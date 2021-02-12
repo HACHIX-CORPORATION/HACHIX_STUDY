@@ -34,6 +34,15 @@ class LinkedList(object):
             print(current_node.data)
             current_node = current_node.next
 
+    def size(self) -> int:
+        size = 0
+        current_node = self.head
+        while current_node:
+            size += 1
+            current_node = current_node.next
+
+        return size
+
     def remove(self, data: Any) -> None:
         current_node = self.head
         if current_node and current_node.data == data:
@@ -85,33 +94,40 @@ class LinkedList(object):
         :return:
         :rtype:
         """
-        previous_node = None
         current_node = self.head
+        l_even = LinkedList()
+        result = LinkedList()
         while current_node:
+            next_node = current_node.next
             if current_node.data % 2 == 0:
-                next_node = current_node.next
-                current_node.next = previous_node
-                previous_node = current_node
-                current_node = next_node
+                l_even.append(current_node.data)
             else:
-                # self.headを変更しなし
-                pass
+                if l_even.size() > 0:
+                    l_even.reverse_iterative()
+                    tmp_node = l_even.head
+
+                    while tmp_node:
+                        next_node = tmp_node.next
+                        result.append(tmp_node.data)
+                        tmp_node = next_node
+
+                result.append(current_node.data)
+
+            current_node = next_node
 
 
 if __name__ == '__main__':
     l = LinkedList()
-    l.append(2)
-    l.append(4)
-    l.append(6)
     l.append(1)
-    l.append(3)
-    l.append(5)
-    l.append(2)
     l.append(4)
     l.append(6)
+    l.append(8)
+    l.append(9)
+
+    print("######## original")
     l.print()
 
     print("######## Reverse Even")
-    # l.reverse_even()
-    l.reverse_iterative()
+    l.reverse_even()
+    # l.reverse_iterative()
     l.print()

@@ -77,7 +77,7 @@ class LinkedList(object):
         self.head = _reverse_recursive(self.head, None)
 
     def reverse_even(self) -> None:
-        def _reverse_even(head: Node, previous_node: Node) -> Optional[Nonde]:
+        def _reverse_even(head: Node, previous_node: Node) -> Optional[Node]:
             if head is None:
                 return None
 
@@ -101,15 +101,11 @@ class LinkedList(object):
 
 if __name__ == '__main__':
     l = LinkedList()
-    l.append(2)
-    l.append(4)
-    l.append(6)
     l.append(1)
-    l.append(3)
-    l.append(5)
-    l.append(2)
     l.append(4)
     l.append(6)
+    l.append(8)
+    l.append(9)
     l.print()
 
     print("######## Reverse Even")
