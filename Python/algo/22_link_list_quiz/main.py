@@ -86,14 +86,20 @@ class LinkedList(object):
                 next_node = current_node.next
                 current_node.next = previous_node
                 previous_node = current_node
+                print("step1")
+                # l.print()
                 current_node = next_node
 
             if current_node != head:
                 head.next = current_node
                 _reverse_even(current_node, None)
+                print("step2")
+                # l.print()
                 return previous_node
             else:
                 head.next = _reverse_even(head.next, head)
+                print("step3")
+                # l.print()
                 return head
 
         self.head = _reverse_even(self.head, None)
