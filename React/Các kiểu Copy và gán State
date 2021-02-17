@@ -1,0 +1,10 @@
+React nó có 3 kiểu copy:
+1. A = B —> Cái này gán ref từ A sang B —> A thay đổi thì B cũng thay đổi
+2. A = [… B] (nếu B là array) —> Cái này nếu B ko phải nested thì A thay đổi, B sẽ ko thay đổi. Nhưng nếu nested thì sẽ giống như trên
+3. A = JSON.parse(JSON…(B)) —> Cái cái này thì 100% A thay đổi, B ko thay đổi
+
+Gán state thì có 2 cách:
+1. this.state.SMT = [ SMT ] cái này chỉ được dùng trong construction lúc khởi tạo state.
+—> Bởi vì nó ko re-render lại phần hiển thị
+
+2. this.setState () —> cái này dùng ở những chỗ còn lại. Sau khi gán giá trị xong, React sẽ tự động gọi hàm re-render những thằng nào liên quan đến cái state đấy.
