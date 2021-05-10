@@ -66,7 +66,14 @@
         - network diagram
         - gantt chart
     
-
+2. Saying "Maybe" or "I'll try"
+    - Say "Yes" or "No"
+    
+3. Answering the killer question
+    - do not say specific time Ex  '6weeks'
+    - say about 6~8 weeks
+    
+4. Not Involving teams enough
     
     
     
