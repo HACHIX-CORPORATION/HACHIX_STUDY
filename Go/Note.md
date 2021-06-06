@@ -26,7 +26,7 @@ Fintech, AI, Robot, Rocket
    - const: 定数
    - 複数の値を宣言するときは()を利用する
 1. Style
-   - = の位置を合わせる
+   - = の位置を合わせる                                   
 1. string
     - lib: strings
     - type: string
