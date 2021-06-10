@@ -58,3 +58,21 @@ profitably.
         - 3次請けにいる優秀なエンジニアでようやく月に70万円です。それでも会社が利益をとって、
           さらに社会保険などを引くと、実際にエンジニアが手にするのは55万円くらい  
 
+## Value Proposition
+### Basic
+1. Value proposition
+* The results that customer will buy your product or services
+1. focus on the jobs-to-be-done by the potential customer.
+* functional jobs
+* social jobs
+* emotional jobs
+* supporting jobs
+1. four steps to achieve a value proposition the business
+* brand positioning
+* specific positioning
+* value positioning
+* total value positioning
+
+
+
+
