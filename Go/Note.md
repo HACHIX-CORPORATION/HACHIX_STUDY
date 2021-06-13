@@ -28,9 +28,13 @@ Fintech, AI, Robot, Rocket
 1. Style
    - = の位置を合わせる                                   
 1. string
-    - lib: strings
-    - type: string
+   - lib: strings
+   - type: string
 1. nilを利用する。    
+
+1. 配列とスライスの違い
+   - 配列: サイズ変更できない
+   - スライス: サイズ変更できる。
     
 
     
