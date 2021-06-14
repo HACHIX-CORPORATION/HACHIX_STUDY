@@ -73,6 +73,16 @@ profitably.
 * value positioning
 * total value positioning
 
+## Disrupted Business
+1. Offer Driven
+   - what makes your product 100% unique
+1. Customer Driven
+1. Resource driven
+1. Finance driven
+
+### Questions
+1. What if?
+
 
 
 
