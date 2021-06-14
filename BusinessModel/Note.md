@@ -74,14 +74,28 @@ profitably.
 * total value positioning
 
 ## Disrupted Business
-1. Offer Driven
-   - what makes your product 100% unique
-1. Customer Driven
-1. Resource driven
-1. Finance driven
+1. The most common (and difficult) type ò innovation: just a "Better product"
+   - 5 keys
+      - performance
+      - sustainability
+      - product system
+      - customization
+      - extra services
+   - a customer is always happier where there is less friction and risk in
+   the buying process.
+     
+1. Design
+   - this includes the whole customer journey
+   - keys
+      - physical design
+   - how can you make it sexier
+   - less is more in web design today
+   - no more boring text, instead, more bullet points, one-liners, pictures
+   
+   
+   
+      
 
-### Questions
-1. What if?
 
 
 
