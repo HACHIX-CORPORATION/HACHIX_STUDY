@@ -1,11 +1,11 @@
 
-#wave形式の音声波形を読み込むためのモジュール(wave)をインポート
+# wave形式の音声波形を読み込むためのモジュール(wave)をインポート
 import wave as wave
 
-#pyroomacousticsをインポート (ここではデータセットをダウンロードするために使用)
+# pyroomacousticsをインポート (ここではデータセットをダウンロードするために使用)
 import pyroomacoustics as pa
 
-#numpyをインポート（波形データを2byteの数値列に変換するために使用）
+# numpyをインポート（波形データを2byteの数値列に変換するために使用）
 import numpy as np
 
 #CMU ARCTIC Corpusをカレントディレクトリにダウンロード
