@@ -68,5 +68,14 @@
 1. Connections Text Proposal Network
 
 ## Text Recognition
-1. 
+1. Model CTC (Connectionist Temporal Classification)
+
+## Tesseract
+1. Since 2006 it is developed and maintained by Google
+1. LSTM based OCR engine
+1. recognize 116 languages
+1. Step   
+   * install Tesseract
+   * pip install pytesseract
+
     
