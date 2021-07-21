@@ -66,4 +66,7 @@
    
 ## CTPN 
 1. Connections Text Proposal Network
+
+## Text Recognition
+1. 
     
