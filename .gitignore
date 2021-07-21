@@ -3,4 +3,7 @@ htmlcov
 .idea
 __pycache__
 .DS_Store
+.wav
 node_modules
+/signal_processing/python_source_separation-master/section2/CMU_ARCTIC/cmu_us_aew_arctic/
+/signal_processing/python_source_separation-master/section2/CMU_ARCTIC/cmu_us_axb_arctic/
