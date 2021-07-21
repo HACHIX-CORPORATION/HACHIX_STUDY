@@ -69,6 +69,104 @@
 <node CREATED="1625143834427" ID="ID_1119521012" MODIFIED="1625143848526" TEXT="2020: ver3.0"/>
 <node CREATED="1625143849944" ID="ID_168518327" MODIFIED="1625143855828" TEXT="2019: ver2.6"/>
 </node>
+<node CREATED="1625144105767" ID="ID_1526667732" MODIFIED="1625144115381" TEXT="Introduction">
+<node CREATED="1625144121961" ID="ID_388869930" MODIFIED="1625144178260" TEXT="focus on the view layer only"/>
+<node CREATED="1625144211673" ID="ID_1164642976" MODIFIED="1625144231260" TEXT="declerative rendering: &#x5ba3;&#x8a00;&#x578b;&#x30ec;&#x30f3;&#x30c0;&#x30ea;&#x30f3;&#x30b0;"/>
+</node>
+<node CREATED="1625144410218" ID="ID_702835700" MODIFIED="1625144413107" TEXT="basic">
+<node CREATED="1625144415849" ID="ID_1142626801" MODIFIED="1625144613076" TEXT="directive ">
+<node CREATED="1625144432528" ID="ID_1548008245" MODIFIED="1625144435788" TEXT="v-for"/>
+<node CREATED="1625144443600" ID="ID_1258431296" MODIFIED="1625144553685">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      v-bind: one-way (controller -&gt; view)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1625144445832" ID="ID_1831052063" MODIFIED="1625144449964" TEXT="v-if"/>
+<node CREATED="1625144472039" ID="ID_643235960" MODIFIED="1625144473972" TEXT="v-on"/>
+<node CREATED="1625144563360" ID="ID_596890889" MODIFIED="1625144571676" TEXT="v-model: two way binding"/>
+<node CREATED="1625145473422" ID="ID_1357673928" MODIFIED="1625145475546" TEXT="v-html"/>
+</node>
+<node CREATED="1625144614534" ID="ID_1209893126" MODIFIED="1625144616963" TEXT="component">
+<node CREATED="1625144677880" ID="ID_100452124" MODIFIED="1625144695452" TEXT="props"/>
+<node CREATED="1625144696001" ID="ID_1892695506" MODIFIED="1625144697548" TEXT="template"/>
+</node>
+<node CREATED="1625144912944" ID="ID_1751345514" MODIFIED="1625144915730" TEXT="vue instance">
+<node CREATED="1625144917016" ID="ID_440919374" MODIFIED="1625144952735">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Every vue application starts by creating a new Vue instance&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1625144981463" ID="ID_1850110172" MODIFIED="1625145029827" TEXT="not strictly MVVM patter so we often use the variable vm (ViewModel) to refer to our Vue instance"/>
+<node CREATED="1625145031288" ID="ID_1573930331" MODIFIED="1625145265321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        all properties found in its <b>data</b>&#160;object
+      </li>
+      <li>
+        when this data changes, the view will re-render
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1625145297582" ID="ID_1800180618" MODIFIED="1625145330344">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Note
+    </p>
+    <ul>
+      <li>
+        don't use arrow functions on an options property or callback
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1625145392558" ID="ID_1318715742" MODIFIED="1625145414919">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      life cycle
+    </p>
+    <p>
+      https://vuejs.org/images/lifecycle.png
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
