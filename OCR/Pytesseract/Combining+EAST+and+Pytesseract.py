@@ -4,7 +4,7 @@ import numpy as np
 from imutils.object_detection import non_max_suppression
 
 
-img = cv2.imread('D:/downloads/OCR_LNP.PNG')
+img = cv2.imread('D:/downloads/test1.PNG')
 
 ## -------------  Load the pre-trained models ---------------
 model = cv2.dnn.readNet('D:/downloads/frozen_east_text_detection.pb')
