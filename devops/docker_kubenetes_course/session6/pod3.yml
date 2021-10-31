@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: default
+spec:
+  containers:
+    - name: debug
+      image: centos:7
+      command:
+        - "sh"
+        - "-c"
+      args:
+        - |
+          while true
+          do
+            sleep ${DELAY}
+          done
+      env:
+        - name: "DELAY"
+          value: "5"

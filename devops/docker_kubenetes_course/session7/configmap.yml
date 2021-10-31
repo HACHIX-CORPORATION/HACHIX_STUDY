@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sample-config
+  namespace: default
+data:
+  sample.cfg: |
+    user: tsuyoshi.tanaka
+  type: "application"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample
+  namespace: default
+spec:
+  containers:
+  - name: sample
+    image: nginx:1.17.2-alpine
+    env:
+    - name: TYPE
+      valueFrom:
+        configMapKeyRef:
+          name: sample-config
+          key: type
+    volumeMounts:
+    - name: config-storage
+      mountPath: /home/nginx
+  volumes:
+  - name: config-storage
+    configMap:
+      name: sample-config
+      items:
+      - key: sample.cfg
+        path: sample.cfg

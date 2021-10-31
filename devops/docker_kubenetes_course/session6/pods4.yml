@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: default
+spec:
+  containers:
+    - name: debug
+      image: centos:7
+      command:
+        - "sh"
+        - "-c"
+      args:
+        - |
+          while true
+          do
+            sleep ${DELAY}
+          done
+      env:
+        - name: "DELAY"
+          value: "5"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.17.2-alpine
