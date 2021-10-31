@@ -1,0 +1,3 @@
+2018/11/25 13:58:34 bitflyer.go:221: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2018/11/25 13:58:37 bitflyer.go:274: interrupt
+2018/11/25 13:58:37 bitflyer.go:244: read: websocket: close 1000 (normal)
