@@ -1,0 +1,11 @@
+function showThis() {
+    console.log(this);
+}
+showThis();
+
+<button id ="save">保存</button>
+<script>
+    document.getElementById("save").addEvenListener("click", function () {
+        this.innerText = "保存中..."
+    });
+</script>
