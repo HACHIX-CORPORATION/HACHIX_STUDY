@@ -21,18 +21,25 @@
         int i;
         int* pi = &i;
         
-3. const ポインター
-    const int a = 42;
-    const int b = 0;
-    
-    const int* ptr = &a;
-    ptr = &b;
-    
-4. const なポインター変数
-    int a = 42;
-    int b = 0;
-    int* const ptr = &a;
-    ptr = &b; // エラー
+3. const
+
+https://qiita.com/pink_bangbi/items/a36617bf1d5923743d69
+
+```
+    int value = 42;
+    // ポインタが指してる実体を変更することができない
+    const int* p = &value;
+    p = &value;                   // OK
+    *p = 10;                      // NG
+
+    // ポインタ変数そのものを変更することができない
+    int* const p2 = &value;
+    p2 = &value;                  // NG
+    *p2 = 10;                     // OK
+```
+メモ：
+- const int* → ポインタが指してる実体を書き換えることができない
+- * の後に const を付けた場合はポインタ変数そのものが不変になる
     
 5. 配列
     - 定義 
@@ -92,7 +99,12 @@
     - クロージャ (閉包)
    
         
-12. ネストした型名の宣言
-    -         
+# Exceptions
+1. try, catch, throw     
+2. catch: type をdefineする必要がある。
+
+# Files
+1. #include <fstream>
+
          
     
