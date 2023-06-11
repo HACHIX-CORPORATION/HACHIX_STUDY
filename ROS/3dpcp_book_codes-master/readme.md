@@ -9,3 +9,9 @@ conda create -n open3d python=3.8
 3. downsampling
 - python o3d_voxelize_points.py ..\3rdparty\Open3D\examples\test_data\fragment.ply 0.03
 - python o3d_farthest_point_sampling.py ..\3rdparty\Open3D\examples\test_data\fragment.ply 1000
+
+4. noise filter
+- python o3d_remove_outliers.py ..\3rdparty\Open3D\examples\test_data\fragment.ply
+
+5. 法線推定
+- python o3d_estimate_normals.py ..\3rdparty\Open3D\examples\test_data\knot.ply
