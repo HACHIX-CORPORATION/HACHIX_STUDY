@@ -53,8 +53,7 @@ def answer_question_with_rag(question):
 	else:
 		most_relevant_text = "問題に関連する情報が見つかりませんでした"
 
-	result = qa_chain.run(question)
-	print(f"result = {result}")
+	result = qa_chain.chat(question, context=most_relevant_document['text'])
 
 	return most_relevant_text, result
 
@@ -78,7 +77,7 @@ def main(query_path):
 		writer.writerows(result_all)
 
 
-csv_file_path = r'D:\repos\study\HACHIX_STUDY\RAG\competition_src\query.csv'
+csv_file_path = r'D:\repos\study\HACHIX_STUDY\RAG\competition_src\query1.csv'
 main(csv_file_path)
 
 
