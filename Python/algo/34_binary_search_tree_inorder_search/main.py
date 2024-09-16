@@ -17,26 +17,8 @@ def insert(node: Node, value: int) -> Node:
 
 
 def inorder(node: Node) -> None:
-    # Inorder Left, Root, Right
-    # Preorder Root, Left, Right
-    # Postorder Left, Right, Root
-    if node is not None:
-        inorder(node.left)
-        print(node.value)
-        inorder(node.right)
-
-
-def search(node: Node, value: int) -> bool:
-    if node is None:
-        return False
-
-    if node.value == value:
-        return True
-    elif node.value > value:
-        return search(node.left, value)
-    elif node.value < value:
-        return search(node.right, value)
-
+    # code here
+    pass
 
 
 if __name__ == '__main__':
@@ -49,4 +31,4 @@ if __name__ == '__main__':
     root = insert(root, 10)
     root = insert(root, 2)
     inorder(root)
-    print(search(root, 6))
+    # expectation: 1, 2, 3, 5, 6, 7, 10
