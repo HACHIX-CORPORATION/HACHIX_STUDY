@@ -26,7 +26,7 @@ class CRAGEvaluator(Evaluator):
         except KeyError:
             encoding = tiktoken.get_encoding("cl100k_base")
 
-        client = OpenAI()
+        client = OpenAI(api_key="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")
         start = time.time()
         ans_sims = {}
         score = 0
