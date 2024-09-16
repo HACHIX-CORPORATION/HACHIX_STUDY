@@ -1,6 +1,7 @@
 import nltk
 from nltk.tokenize import sent_tokenize
 import os
+import re
 
 # 初回のみ必要: NLTKのpunktデータセットをダウンロード
 nltk.download('punkt_tab')
@@ -17,7 +18,7 @@ def read_file_and_split_sentences(directory):
 			text = file.read()
 
 			# テキストを文に分割
-			sentences += sent_tokenize(text)
+			sentences += re.split(r'(?<=[。！？])', text)
 
 	return sentences
 
